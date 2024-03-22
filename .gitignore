@@ -1,0 +1,8 @@
+# Ignoring credentials file
+credentials.yaml
+
+# Ignoring __pycache__
+__pycache__/
+
+# Ignoring all log files
+*.log
