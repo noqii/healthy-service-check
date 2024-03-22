@@ -16,6 +16,7 @@ class HttpClient:
         self.session = ClientSession(
             self.base_url,
             headers=self.heads,
+            trace_configs=self.trace_config,
             cookie_jar=self.cookie_jar
         )
 
